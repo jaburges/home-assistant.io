@@ -135,6 +135,10 @@ This is the very very early version aimed at gathering feedback. Discussion and 
 
 This is probably because your version of Firefox doesn't have custom components supported or enabled. Please set to `true` in your `about:config` the following settings: `dom.webcomponents.customelements.enabled` and `dom.webcomponents.shadowdom.enabled`
 
+### {custom-element not found custom-lovelace-card}
+
+If you recently edited the code in a custom-lovelace-card, or adjusted the `type` in ui-lovelace.yaml a refresh, or even a CTRL+F5 refresh may not be enough. Be sure to delete browser cache too.
+
 ### {% linkable_title Custom cards don't load on my iOS device? %}
 
 Home Assistant comes with two versions of the frontend. A compatibility mode for older devices and a modern mode. The custom cards need to target one mode and usually choose the modern mode. Before Home Assistant 0.76, we had an issue in the automation and script editor that prevented modern iOS and Mac devices running Safari from using the modern mode.
