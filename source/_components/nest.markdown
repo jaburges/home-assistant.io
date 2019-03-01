@@ -93,7 +93,7 @@ You can use the service `nest/set_away_mode` to set the structure(s) to "Home" o
 
 | Service data attribute | Optional | Description |
 | ---------------------- | -------- | ----------- |
-| `away_mode` | no | String, must be `away` or `home`.
+| `away_mode` | no | String, must be `true` or `false`.
 | `structure` | yes | String, will default to all configured Nest structures if not specified.
 
 Examples:
