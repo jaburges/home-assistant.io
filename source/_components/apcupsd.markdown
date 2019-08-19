@@ -159,3 +159,6 @@ sensor:
       - minlinev
       - outputv
 ```
+
+Note you can only monitor one instance of apcupsd with Home Assistant. However if you are using Node-Red there is a apcupsd palette:
+https://flows.nodered.org/node/node-red-contrib-apcaccess
